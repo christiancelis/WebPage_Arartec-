@@ -1,0 +1,538 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+}
+
+
+
+
+.primera-fase{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows:  20px auto 500px;
+}
+
+
+header{
+    height: auto;
+    grid-area: 2/2;
+}
+
+.logo-nav img{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.central-elements ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.central-elements ul li{
+    padding-left: 60px;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav i{
+    padding-left: 30px;
+}
+
+
+/*hero */
+
+.hero{
+    position: relative;
+    grid-row: 3;
+    grid-column: 2/3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conf{
+    
+    background-image: url(/assets/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1/4;
+    grid-column: 1/4;
+
+}
+
+.hero-info{
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+}
+
+
+.hero-info h1{
+    font-size: 8rem;
+    text-align: center;
+}
+
+.hero-info p{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.hero-info button{
+    width: 400px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    color: aliceblue;
+   font-size: 2rem;
+    background-color: rgb(227, 85, 85);
+    font-weight: 600;
+}
+
+.imagen-hero{
+
+    width: 400px;
+    height: 400px;
+}
+
+.imagen-hero img:nth-child(1){
+    transform: rotate(20deg);
+    position: absolute;
+    width: 400px;
+    right: 30px;
+    top: 20px;
+    opacity: 0.9;
+   
+}   
+
+.imagen-hero img:nth-child(2){
+    transform: rotate(36deg);
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: 250px;
+    opacity: 0.9;
+}   
+
+
+.fi-rr-menu-burger{
+    display: none;
+}
+
+
+/* section talla en madera*/
+
+.Fase{
+    background-color: rgb(230, 228, 226);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows:  80px auto 80px;
+    font-size: 1.8rem;
+  
+}
+
+.cont{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+}
+
+.s1{
+    margin-right: 100px;
+}
+
+.s1 h1{
+    margin-bottom: 20px;
+}
+
+.s1 h3{
+    font-weight: 200;
+    color: rgb(74, 66, 66)
+}
+
+
+.s1 p{
+    margin-top: 20px;  
+}
+
+
+.s1 span{
+    color: red;
+}
+
+.s2 img{
+    width: 200px;
+}
+
+
+.productos{
+    background-color: rgb(230, 228, 226);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows:  80px auto 80px;
+    font-size: 1.7rem;
+}
+
+.productos h1{
+    margin: auto 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.productos .titulop{
+    grid-column: 2/3;
+    font-size: 4rem;
+}
+
+.productBox{
+   
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+    flex-wrap: wrap;
+   
+
+}
+
+.p1{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    margin: 15px;
+}
+
+
+.p1 img{
+    width: 100%;
+}
+
+
+
+
+
+.f3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 3fr 0.6fr;
+    grid-template-rows:  80px auto 80px;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box3{
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(251, 246, 246);
+    border-radius: 30px;
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: block;
+    margin: auto 0;
+    text-align: center
+}
+
+.box3 .titleb3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.seleccion{
+    background-color: rgb(239, 233, 233);
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+
+
+.seleccion .mision{
+    margin-left: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+.mision p{
+    font-size: 1.8rem;
+}
+
+.seleccion .logmision{
+    margin-right: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.logmision img{
+    width: 12px;
+    transform: rotate(0deg);
+    transition: 0.4s ;
+}
+
+.logmision .girar{
+    transform: rotate(180deg);
+    transition: 0.4s ;
+}
+
+
+#menudesp p{
+    text-align: justify;
+    line-height: 22px;
+
+}
+
+
+.activo{
+    display: block;
+    transition: 0.4s ;
+}
+
+
+
+.activo p{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.inactivo{
+    display: none;
+    transition: 0.5s ease-out;
+}
+
+footer{
+    font-size: 1.8rem;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+}
+
+footer p{
+    width: auto;
+}
+
+
+
+
+
+
+.f4{
+    background-color: rgb(239, 233, 233) ;
+  
+}
+
+
+
+@media(max-width:1100px){
+
+
+    .fi-rr-menu-burger{
+        display: block;
+    }
+
+    .f3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    header .central-elements{
+        display: none;
+    }
+
+    .hero{
+        justify-content: center;
+    }
+
+    .conf{
+        background-color: rgb(26, 232, 232);
+        background-image: url("");
+    }
+
+    .imagen-hero{
+        display: none;
+    }
+
+    .content{
+        display: block;
+       text-align: center;
+    margin: auto; 
+    }
+
+    .cont{ 
+        display: block;
+        margin: auto 0;
+        text-align: center
+    }
+
+    .s1{
+        width: 100%;
+        height: auto;
+    }
+
+    .s2 img{
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    .p1{
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    
+    }
+
+    .box3{
+        width: auto;
+        padding: 30px;
+        }
+
+        .activo p{
+            font-size: 2rem;
+        }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+     .hero{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .hero-info{
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+     }
+    
+    
+    .hero-info h1{
+        font-size: 5rem;
+        margin: 0 auto;
+        
+    }
+
+    .hero-info p{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .hero-info button{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .Fase{        
+        grid-template-columns: 2vh auto 2vh;
+    }
+
+    .cont{
+        width: 100%;
+    }
+
+    .s1 {
+        margin-right: 0px;
+    }
+
+    .s2 img{
+         width: auto;
+    }
+
+    .f3{
+        grid-template-columns: 10vh 80vh 10vh;
+    }
+
+
+    .productos{
+        grid-template-columns: 2vh auto 2vh;
+    }
+
+    .p1{
+        width: 100%;
+    }
+
+    .box3{
+        width: 260px;
+        padding: 30px;
+        }
+
+
+        .activo{
+            width: 220px;
+            height: auto;
+        }
+
+
+}
+
+
+@media(max-width:300px){
+
+    .primera-fase{
+        grid-template-rows:  20px auto 300px;
+    }
+    .fi-rr-user {
+        display: none;
+    }
+
+    .fi-rr-shopping-cart{
+        display: none;
+    }
+}
+
+
